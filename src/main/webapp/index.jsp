@@ -1,5 +1,16 @@
 <html>
+<head>
+    <title> test </title>
+</head>
 <body>
-<h2>Hello World!</h2>
+Spring REST Demo
+<hr>
+
+<a href="${pageContext.request.contextPath}/test/hello">Hello</a>
+
+<br><br>
+
+<a href="${pageContext.request.contextPath}/api/students">Get All Students</a>
+
 </body>
 </html>
