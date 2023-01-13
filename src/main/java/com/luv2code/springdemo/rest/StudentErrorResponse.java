@@ -1,5 +1,4 @@
-package com.luv2code.springdemo.entity;
-
+package com.luv2code.springdemo.rest;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,8 +9,10 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Student {
-    private String firstName;
-    private String lastName;
+public class StudentErrorResponse {
+
+    private int status;
+    private String message;
+    private long timeStamp;
 
 }
